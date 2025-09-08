@@ -4,12 +4,12 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-12 px-4 bg-gray-50 dark:bg-gray-900"
+      className="min-h-screen flex items-center justify-center py-12 px-4 bg-base-100"
     >
       <div className="w-full max-w-5xl flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Text */}
         <div className="text-center lg:text-left lg:w-1/2 flex flex-col justify-center items-center lg:items-start">
-          <h2 className=" text-2xl md:text-3xl lg:text-5xl font-bold mb-4">
+          <h2 className=" text-2xl md:text-4xl lg:text-5xl font-bold mb-4">
             Let's debug together...
           </h2>
           <p className="hidden md:block text-gray-600 dark:text-gray-300 max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
@@ -22,7 +22,7 @@ const ContactSection = () => {
         {/* Form */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <form
-            className="w-full max-w-sm p-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg flex flex-col gap-5"
+            className="w-full max-w-sm p-8 bg-slate-800 rounded-xl shadow-lg flex flex-col gap-5"
             action="https://formsubmit.co/kgoyary824@gmail.com"
             method="POST"
           >
