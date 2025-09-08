@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center bg-base-100"
+      className="md:min-h-screen flex items-center justify-center bg-base-100"
     >
       <div className="max-w-5xl mx-auto px-6 md:px-12" data-aos="fade-up">
         <div className="grid md:grid-cols-2 gap-12 items-center">
