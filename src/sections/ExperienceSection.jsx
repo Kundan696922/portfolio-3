@@ -31,7 +31,7 @@ const ExperienceSection = () => {
   return (
     <section
       id="experience"
-      className="min-h-screen flex items-center justify-center bg-base-100 py-16"
+      className="md:min-h-screen flex items-center justify-center bg-base-100 py-16"
     >
       <div className="max-w-5xl mx-auto px-6 md:px-12">
         {/* Section Title */}
