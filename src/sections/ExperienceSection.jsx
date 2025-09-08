@@ -11,10 +11,8 @@ const ExperienceSection = () => {
       date: "June 2024 - July 2024",
       logo: codtechLogo,
       tasks: [
-        "Built responsive and interactive web applications that adapted well to different screen sizes and ensured smooth navigation for users.",
-        "Developed a personal portfolio website and a To-Do List application with features such as task addition, deletion, and persistence using local storage.",
-        "Managed code versioning on GitHub by maintaining clean commits, organizing repositories properly, and collaborating through branches.",
-        "Followed agile workflows by documenting progress regularly, attending reviews, and completing assigned tasks within the given timelines."
+        "Built responsive and interactive web applications, including a portfolio site and task management app with persistent local storage, improving usability across devices.",
+        "Managed code versioning through GitHub and followed agile workflows, ensuring timely delivery and smooth collaboration on assigned projects."
       ],
     },
     {
@@ -23,9 +21,8 @@ const ExperienceSection = () => {
       date: "June 2023 - July 2023",
       logo: nielitLogo,
       tasks: [
-        "Completed structured training in Python programming and gained hands-on experience in applying machine learning techniques to practical problems.",
-        "Worked on a leaf disease detection system where image data was processed, analyzed, and used for building a reliable detection model.",
-        "Prepared a final report and presented the project outcome, highlighting how the approach could support early detection in agricultural practices."
+        "Completed training in Python programming and machine learning, applying concepts to real-world data-driven problem solving.",
+        "Developed a leaf disease detection system using image processing and ML libraries, enabling accurate identification of plant health conditions."
       ],
     },
   ];
