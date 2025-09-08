@@ -76,7 +76,7 @@ const ProjectsSection = () => {
   return (
     <section
       id="projects"
-      className="md:min-h-screen flex flex-col items-center justify-center py-12 px-4"
+      className="min-h-screen flex flex-col items-center justify-center py-12 px-4"
     >
       <h2 className="lg:text-3xl md:text-2xl text-xl font-bold text-center mb-8 underline decoration-primary">
         These are some of my projects
