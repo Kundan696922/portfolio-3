@@ -9,7 +9,7 @@ const HomeSection = () => {
   return (
     <section
       id="home"
-      className="flex items-center justify-center min-h-screen text-center bg-base-100 mt-6"
+      className="flex items-center justify-center md:min-h-screen text-center bg-base-100 mt-6"
     >
       <div className="container mx-auto px-4" data-aos="fade-up">
         {/* Title */}
