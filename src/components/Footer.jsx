@@ -4,7 +4,10 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-base-100 text-gray-800 dark:text-gray-200 py-6">
-      <div className="container mx-auto flex flex-col items-center justify-center gap-4">
+      <div
+        className="container mx-auto flex flex-col items-center justify-center gap-4 "
+        data-aos="fade-up"
+      >
         {/* Social Links */}
         <div className="flex items-center justify-center gap-6">
           <a
