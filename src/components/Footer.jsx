@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 py-6">
+    <footer className="bg-base-100 text-gray-800 dark:text-gray-200 py-6">
       <div className="container mx-auto flex flex-col items-center justify-center gap-4">
         {/* Social Links */}
         <div className="flex items-center justify-center gap-6">
