@@ -4,7 +4,7 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-12 px-4 bg-gray-50 dark:bg-gray-900"
+      className="md:min-h-screen flex items-center justify-center py-12 px-4 bg-gray-50 dark:bg-gray-900"
     >
       <div className="w-full max-w-5xl flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Text */}
