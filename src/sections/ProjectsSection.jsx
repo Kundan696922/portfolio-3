@@ -7,7 +7,7 @@ const projects = [
     description:
       "FitRack is a Full-Stack Product Store App built with the MERN stack",
     tools: "React, Tailwind, Node.js, Express, MongoDB",
-    image: "../src/assets/fitrack.png",
+    image: "/src/assets/fitrack.png",
     demo: "https://fitrack-4hif.onrender.com/",
     github: "https://github.com/Kundan696922/fitrack",
         icon: "dumbbell",
@@ -17,7 +17,7 @@ const projects = [
     description:
       "NoteBoard is a Full-Stack Note Taking App built with the MERN stack.",
     tools: "React, Tailwind, Node.js, Express, MongoDB",
-    image: "../src/assets/noteboard.png",
+    image: "/src/assets/noteboard.png",
     demo: "https://noteboard-6618.onrender.com/",
     github: "https://github.com/Kundan696922/noteboard",
     icon: "note",
@@ -27,7 +27,7 @@ const projects = [
     description:
       "CineScope is a sleek and responsive movie discovery app built with React, Vite, and Bootstrap.",
     tools: "React, Bootstrap, HTML",
-    image: "../src/assets/cinescope.png",
+    image: "/src/assets/cinescope.png",
     demo: "https://cinescope23.netlify.app/",
     github: "https://github.com/Kundan696922/cinescope",
     icon: "movie",
@@ -37,7 +37,7 @@ const projects = [
     description:
       "Budgetwise is a responsive expense tracker web app built using React and Bootstrap.",
     tools: "React, Bootstrap, HTML",
-    image: "../src/assets/budgetwise.png",
+    image: "/src/assets/budgetwise.png",
     demo: "https://budgetwise69.netlify.app/",
     github: "https://github.com/Kundan696922/budgetwise",
     icon: "expense",
@@ -47,7 +47,7 @@ const projects = [
     description:
       "Quantum Editor is a web-based code editor built using HTML, CSS, JavaScript, and CodeMirror 5.",
     tools: "HTML, CSS, JS",
-    image: "../src/assets/code-editor.png",
+    image: "/src/assets/code-editor.png",
     demo: "https://quantum-editor.netlify.app/",
     github: "https://github.com/Kundan696922/simple-code-editor",
     icon: "code",
@@ -57,7 +57,7 @@ const projects = [
     description:
       "ShopMate is a responsive and user-friendly Shopping List web app built using ReactJS + Bootstrap.",
     tools: "HTML, React, Bootstrap",
-    image: "../src/assets/shopmate.png",
+    image: "/src/assets/shopmate.png",
     demo: "https://shopmate34.netlify.app/",
     github: "https://github.com/Kundan696922/shopmate",
     icon: "shop",
