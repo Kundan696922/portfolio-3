@@ -11,9 +11,10 @@ const ExperienceSection = () => {
       date: "June 2024 - July 2024",
       logo: codtechLogo,
       tasks: [
-        "Built responsive and interactive web applications.",
-        "Developed Personal Portfolio and To-Do List apps with local storage features.",
-        "Managed code versioning on GitHub and followed agile workflows.",
+        "Built responsive and interactive web applications that adapted well to different screen sizes and ensured smooth navigation for users.",
+        "Developed a personal portfolio website and a To-Do List application with features such as task addition, deletion, and persistence using local storage.",
+        "Managed code versioning on GitHub by maintaining clean commits, organizing repositories properly, and collaborating through branches.",
+        "Followed agile workflows by documenting progress regularly, attending reviews, and completing assigned tasks within the given timelines."
       ],
     },
     {
@@ -22,8 +23,9 @@ const ExperienceSection = () => {
       date: "June 2023 - July 2023",
       logo: nielitLogo,
       tasks: [
-        "Completed training in Python programming and machine learning techniques.",
-        "Developed leaf disease detection system using image processing and ML libraries.",
+        "Completed structured training in Python programming and gained hands-on experience in applying machine learning techniques to practical problems.",
+        "Worked on a leaf disease detection system where image data was processed, analyzed, and used for building a reliable detection model.",
+        "Prepared a final report and presented the project outcome, highlighting how the approach could support early detection in agricultural practices."
       ],
     },
   ];
@@ -61,7 +63,7 @@ const ExperienceSection = () => {
                 </h6>
                 <p className="text-sm text-gray-500 mb-4">{exp.date}</p>
 
-                <ul className="list-disc list-inside space-y-2 text-left text-base-content/80">
+                <ul className="list-disc list-outside pl-5 space-y-2 text-left text-base-content/80">
                   {exp.tasks.map((task, i) => (
                     <li key={i}>{task}</li>
                   ))}
