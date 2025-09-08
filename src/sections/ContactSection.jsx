@@ -9,7 +9,7 @@ const ContactSection = () => {
       <div className="w-full max-w-5xl flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Text */}
         <div className="text-center lg:text-left lg:w-1/2 flex flex-col justify-center items-center lg:items-start">
-          <h2 className=" text-2xl md:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className=" text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Let's debug together...
           </h2>
           <p className="hidden md:block text-gray-600 dark:text-gray-300 max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
