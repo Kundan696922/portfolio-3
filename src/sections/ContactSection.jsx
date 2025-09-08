@@ -20,7 +20,7 @@ const ContactSection = () => {
         </div>
 
         {/* Form */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-full lg:w-1/2 flex justify-center" data-aos="fade-up">
           <form
             className="w-full max-w-sm p-8 bg-slate-800 rounded-xl shadow-lg flex flex-col gap-5"
             action="https://formsubmit.co/kgoyary824@gmail.com"
