@@ -78,16 +78,13 @@ const ProjectsSection = () => {
       id="projects"
       className="min-h-screen flex flex-col items-center justify-center py-12 px-4"
     >
-      <h2 className="lg:text-3xl md:text-2xl text-xl font-bold text-center mb-8 underline decoration-primary">
+      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 underline decoration-primary">
         These are some of my projects
       </h2>
 
-      <div
-        className="grid gap-6 justify-center items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
-        data-aos="fade-up"
-      >
+      <div className="grid gap-6 justify-center items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, idx) => (
-          <div key={idx} className="max-w-xs">
+          <div key={idx} className="max-w-xs" data-aos="fade-up">
             <ProjectCard project={project} />
           </div>
         ))}
