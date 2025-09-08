@@ -2,6 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import animationData from "../assets/animation.json";
 import { Download } from "lucide-react";
+import resumeLink from "../assets/Kundan_resume.pdf"
 
 
 const HomeSection = () => {
@@ -35,7 +36,7 @@ const HomeSection = () => {
 
         {/* Resume Button */}
         <a
-          href="/Kundan_resume.pdf"
+          href={resumeLink}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-primary text-white font-medium rounded-lg shadow hover:bg-primary/90 transition"
