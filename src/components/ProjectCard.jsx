@@ -3,7 +3,7 @@ import {
   Github,
   Laptop,
   ExternalLink,
-  FileText,
+  Handbag,
   Clapperboard,
   Wallet,
   Code,
@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 const iconMap = {
-  note: FileText,
+  bag: Handbag,
   movie: Clapperboard,
   expense: Wallet,
   code: Code,

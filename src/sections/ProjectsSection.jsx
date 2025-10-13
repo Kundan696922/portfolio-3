@@ -3,13 +3,23 @@ import ProjectCard from "../components/ProjectCard";
 
 // Import images
 import fitrackImg from "../assets/fitrack.png";
-import noteboardImg from "../assets/noteboard.png";
+import veloraImg from "../assets/velora.png";
 import cinescopeImg from "../assets/cinescope.png";
 import budgetwiseImg from "../assets/budgetwise.png";
 import codeEditorImg from "../assets/code-editor.png";
 import shopmateImg from "../assets/shopmate.png";
 
 const projects = [
+  {
+    title: "MERN E-Commerce Web App",
+    description:
+      "Velora is a Full-Stack E-Commerce Web App built with the MERN stack.",
+    tools: "React, Tailwind, Node.js, Express, MongoDB",
+    image: veloraImg,
+    demo: "https://velora-qwjc.onrender.com/",
+    github: "https://github.com/Kundan696922/velora",
+    icon: "bag",
+  },
   {
     title: "MERN Product Store App",
     description:
@@ -19,16 +29,6 @@ const projects = [
     demo: "https://fitrack-4hif.onrender.com/",
     github: "https://github.com/Kundan696922/fitrack",
     icon: "dumbbell",
-  },
-  {
-    title: "MERN Stack Note Taking App",
-    description:
-      "NoteBoard is a Full-Stack Note Taking App built with the MERN stack.",
-    tools: "React, Tailwind, Node.js, Express, MongoDB",
-    image: noteboardImg,
-    demo: "https://noteboard-6618.onrender.com/",
-    github: "https://github.com/Kundan696922/noteboard",
-    icon: "note",
   },
   {
     title: "Movie Discovery Web App",
