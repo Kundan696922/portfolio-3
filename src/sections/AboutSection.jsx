@@ -16,15 +16,24 @@ const AboutSection = () => {
             </h2>
 
             <p className="text-sm md:text-base lg:text-lg leading-relaxed mb-4 text-justify">
-              I am a{" "}
-              <span className="font-semibold text-primary">
-                MERN Stack Developer
-              </span>{" "}
-              with 20+ GitHub projects, from simple UI pages to full-stack apps.
-              I build responsive interfaces, secure REST APIs, and scalable
-              applications, with experience in authentication, state management,
-              and modern UI frameworks.
-            </p>
+  I am a{" "}
+  <span className="font-semibold text-primary">
+    MERN Stack Developer
+  </span>{" "}
+  with 20+ GitHub projects, ranging from simple UI pages to full-stack apps,
+  building responsive interfaces, secure REST APIs, and scalable
+  applications. I completed my B.Tech from{" "}
+  <a
+    href="https://www.cit.ac.in"
+    className="text-primary no-underline hover:text-primary/80"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Central Institute of Technology, Kokrajhar
+  </a>
+  .
+</p>
+
 
             <p className="text-sm md:text-base lg:text-lg leading-relaxed mb-4 text-justify">
               Here are some technologies I have been working with:
