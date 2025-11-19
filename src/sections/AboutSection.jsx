@@ -20,9 +20,9 @@ const AboutSection = () => {
   <span className="font-semibold text-primary">
     MERN Stack Developer
   </span>{" "}
-  with 20+ GitHub projects, ranging from simple UI pages to full-stack apps,
+  with 20+ GitHub projects, ranging from simple UI pages to full-stack applications,
   building responsive interfaces, secure REST APIs, and scalable
-  applications. I completed my B.Tech from{" "}
+  applications. I completed my B.Tech in Computer Science and Engineering from{" "}
   <a
     href="https://www.cit.ac.in"
     className="text-primary no-underline hover:text-primary/80"
