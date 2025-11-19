@@ -20,11 +20,10 @@ const AboutSection = () => {
               <span className="font-semibold text-primary">
                 MERN Stack Developer
               </span>{" "}
-              with a interest in building full-stack web applications. I enjoy
-              creating <span className="font-semibold">scalable backends</span>,{" "}
-              <span className="font-semibold">intuitive frontends</span>, and I
-              continuously explore new technologies to enhance my development
-              skills.
+              with 20+ GitHub projects, from simple UI pages to full-stack apps.
+              I build responsive interfaces, secure REST APIs, and scalable
+              applications, with experience in authentication, state management,
+              and modern UI frameworks.
             </p>
 
             <p className="text-sm md:text-base lg:text-lg leading-relaxed mb-4 text-justify">
@@ -32,7 +31,10 @@ const AboutSection = () => {
             </p>
 
             {/* Skills List */}
-            <ul className="list-disc list-inside grid grid-cols-2 gap-2 mb-6 pl-2" data-aos="fade-up">
+            <ul
+              className="list-disc list-inside grid grid-cols-2 gap-2 mb-6 pl-2"
+              data-aos="fade-up"
+            >
               <li>MongoDB</li>
               <li>Express.js</li>
               <li>React.js</li>
@@ -43,11 +45,9 @@ const AboutSection = () => {
             </ul>
 
             <p className="text-sm md:text-base lg:text-lg leading-relaxed text-justify">
-              Outside of coding, I enjoy exploring new games and watching
-              movies. Gaming sharpens my{" "}
-              <span className="font-semibold">problem-solving skills</span> and
-              creativity, while movies give me inspiration and relaxation after
-              a day of coding.
+              Outside of coding, I enjoy hitting the gym, exploring new games,
+              and watching movies, activities that keep me sharp, creative, and
+              relaxed.
             </p>
 
             <p className="mt-6 font-semibold text-primary text-center md:text-left">
