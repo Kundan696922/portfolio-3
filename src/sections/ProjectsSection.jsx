@@ -4,10 +4,11 @@ import ProjectCard from "../components/ProjectCard";
 // Import images
 import fitrackImg from "../assets/fitrack.png";
 import veloraImg from "../assets/velora.png";
-import cinescopeImg from "../assets/cinescope.png";
+import reelioImg from "../assets/reelio.png";
 import budgetwiseImg from "../assets/budgetwise.png";
 import codeEditorImg from "../assets/code-editor.png";
 import shopmateImg from "../assets/shopmate.png";
+
 
 const projects = [
   {
@@ -33,11 +34,11 @@ const projects = [
   {
     title: "Movie Discovery Web App",
     description:
-      "CineScope is a sleek and responsive movie discovery app built with React, Vite, and Bootstrap.",
-    tools: "React, Bootstrap, HTML",
-    image: cinescopeImg,
-    demo: "https://cinescope23.netlify.app/",
-    github: "https://github.com/Kundan696922/cinescope",
+      "Reelio is a Movie & TV Series Discovery Web App built using React, CSS, and TMDB API.",
+    tools: "React, CSS, TMDB API",
+    image: reelioImg,
+    demo: "https://reelio-nine.vercel.app/",
+    github: "https://github.com/Kundan696922/reelio",
     icon: "movie",
   },
   {
