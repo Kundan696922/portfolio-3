@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectCard";
 // Import images
 import fitrackImg from "../assets/fitrack.png";
 import veloraImg from "../assets/velora.png";
-import reelioImg from "../assets/reelio.png";
+import reelioImg from "../assets/2.png";
 import budgetwiseImg from "../assets/budgetwise.png";
 import codeEditorImg from "../assets/code-editor.png";
 import shopmateImg from "../assets/shopmate.png";
