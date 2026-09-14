@@ -2,9 +2,20 @@ import React from "react";
 import { Briefcase } from "lucide-react";
 import codtechLogo from "../assets/codtech_logo.jpeg";
 import nielitLogo from "../assets/nielit_guwahati_logo.jpeg";
+import kakzaLogo from "../assets/kakza_logo.jpg";
 
 const ExperienceSection = () => {
   const experiences = [
+    {
+      company: "Kakza",
+      role: "Frontend Developer",
+      date: "February 2026 - June 2026",
+      logo: kakzaLogo,
+      tasks: [
+        "Developed and integrated frontend features including AI-powered translation, AI chat box, interactive dropdowns, and other product enhancements.",
+        "Worked with new APIs to build user-facing features, handle API data, and improve overall product functionality and user experience."
+      ],
+    },
     {
       company: "CODTECH IT SOLUTIONS",
       role: "Frontend Developer Intern",
