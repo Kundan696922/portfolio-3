@@ -12,19 +12,9 @@ import shopmateImg from "../assets/shopmate.png";
 
 const projects = [
   {
-    title: "MERN E-Commerce Web App",
-    description:
-      "Velora is a Full-Stack E-Commerce Web App built with the MERN stack.",
-    tools: "React, Tailwind, Node.js, Express, MongoDB",
-    image: veloraImg,
-    demo: "https://velora-qwjc.onrender.com/",
-    github: "https://github.com/Kundan696922/velora",
-    icon: "bag",
-  },
-  {
     title: "Nutrition & Wellness Web App",
     description:
-      "Caloriq is a Nutrition & Wellness Web App built with the MERN stack",
+      "Caloriq is a Nutrition & Wellness Web App built with the MERN stack.",
     tools: "React, Tailwind, Node.js, Express, MongoDB",
     image: caloriqImg,
     demo: "https://caloriq-liart.vercel.app/",
@@ -70,6 +60,16 @@ const projects = [
     demo: "https://shopmate34.netlify.app/",
     github: "https://github.com/Kundan696922/shopmate",
     icon: "shop",
+  },
+   {
+    title: "MERN E-Commerce Web App",
+    description:
+      "Velora is a Full-Stack E-Commerce Web App built with the MERN stack.",
+    tools: "React, Tailwind, Node.js, Express, MongoDB",
+    image: veloraImg,
+    demo: "https://velora-qwjc.onrender.com/",
+    github: "https://github.com/Kundan696922/velora",
+    icon: "bag",
   },
 ];
 
