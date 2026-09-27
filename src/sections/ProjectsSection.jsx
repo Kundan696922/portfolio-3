@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 
 // Import images
-import fitrackImg from "../assets/fitrack.png";
+import caloriqImg from "../assets/caloriq.png";
 import veloraImg from "../assets/velora.png";
 import reelioImg from "../assets/reelio.png";
 import budgetwiseImg from "../assets/budgetwise.png";
@@ -22,13 +22,13 @@ const projects = [
     icon: "bag",
   },
   {
-    title: "MERN Product Store App",
+    title: "MERN Nutrition & Wellness Web App",
     description:
-      "FitRack is a Full-Stack Product Store App built with the MERN stack",
+      "Caloriq is a Full-Stack Nutrition & Wellness Web App built  built with the MERN stack",
     tools: "React, Tailwind, Node.js, Express, MongoDB",
-    image: fitrackImg,
-    demo: "https://fitrack-4hif.onrender.com/",
-    github: "https://github.com/Kundan696922/fitrack",
+    image: caloriqImg,
+    demo: "https://caloriq-liart.vercel.app/",
+    github: "https://github.com/Kundan696922/caloriq",
     icon: "dumbbell",
   },
   {
