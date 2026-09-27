@@ -67,7 +67,7 @@ const projects = [
       "Velora is a Full-Stack E-Commerce Web App built with the MERN stack.",
     tools: "React, Tailwind, Node.js, Express, MongoDB",
     image: veloraImg,
-    demo: "https://velora-qwjc.onrender.com/",
+    // demo: "https://velora-qwjc.onrender.com/",
     github: "https://github.com/Kundan696922/velora",
     icon: "bag",
   },
