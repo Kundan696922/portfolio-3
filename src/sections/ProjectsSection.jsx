@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Nutrition & Wellness Web App",
     description:
-      "Caloriq is a Full-Stack Nutrition & Wellness Web App built  built with the MERN stack",
+      "Caloriq is a Nutrition & Wellness Web App built with the MERN stack",
     tools: "React, Tailwind, Node.js, Express, MongoDB",
     image: caloriqImg,
     demo: "https://caloriq-liart.vercel.app/",
